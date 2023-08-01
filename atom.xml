@@ -6,7 +6,7 @@
   <link href="https://1214summer.github.io/atom.xml" rel="self"/>
   
   <link href="https://1214summer.github.io/"/>
-  <updated>2023-07-31T11:48:22.575Z</updated>
+  <updated>2023-07-28T12:00:02.578Z</updated>
   <id>https://1214summer.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://1214summer.github.io/2023/07/31/%E5%8D%B7%E7%A7%AF%E4%BB%BB%E5%8A%A1/"/>
-    <id>https://1214summer.github.io/2023/07/31/%E5%8D%B7%E7%A7%AF%E4%BB%BB%E5%8A%A1/</id>
-    <published>2023-07-31T11:48:22.575Z</published>
-    <updated>2023-07-31T11:48:22.575Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;使用PyTorch搭建一个简单的全连接神经网络，并在MNIST数据集上进行训练和测试。&lt;/li&gt;
-&lt;li&gt;使用PyTorch搭建一个卷积神经网络（CNN），并对CIFAR-10数据集进行分类。&lt;/li&gt;
-&lt;li&gt;使用PyTorch搭建一个循环神经网络（RNN），</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>大二规划</title>
@@ -85,6 +61,32 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>卷积网络任务</title>
+    <link href="https://1214summer.github.io/2001/07/31/%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C%E4%BB%BB%E5%8A%A1/"/>
+    <id>https://1214summer.github.io/2001/07/31/%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C%E4%BB%BB%E5%8A%A1/</id>
+    <published>2001-07-30T16:00:00.000Z</published>
+    <updated>2023-08-01T01:02:08.358Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;使用PyTorch搭建一个简单的全连接神经网络，并在MNIST数据集上进行训练和测试。&lt;/li&gt;
+&lt;li&gt;使用PyTorch搭建一个卷积神经网络（CNN），并对CIFAR-10数据集进行分类。&lt;/li&gt;
+&lt;li&gt;使用PyTorch搭建一个循环神经网络（RNN），</summary>
+        
+      
+    
+    
+    
+    
+    <category term="任务" scheme="https://1214summer.github.io/tags/%E4%BB%BB%E5%8A%A1/"/>
     
   </entry>
   

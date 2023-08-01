@@ -50,6 +50,10 @@
 
     
     
+        
+<link rel="stylesheet" href="https://unpkg.com/katex@0.16.7/dist/katex.min.css">
+
+    
     
     
     
@@ -152,6 +156,9 @@
                        title="RSS Feed"></a>
                 
                 
+                    <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search">
+                    </a>
+                
             </nav>
             <div id="search-form-wrap">
                 <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://1214summer.github.io"></form>
@@ -186,6 +193,21 @@
         <div class="archives">
             <ul>
                 
+                <li class="archive-article">
+    <div class="archive-article-date-wrap">
+        <a href="/2023/07/31/%E5%8D%B7%E7%A7%AF%E4%BB%BB%E5%8A%A1/">
+            <time class="dt-published" datetime="2023-07-31T11:48:22.575Z"
+                  itemprop="datePublished">07-31</time>
+        </a>
+    </div>
+    <div class="archive-article-title-wrap">
+        
+    </div>
+</li>
+
+                
+            
+            
                 <li class="archive-article">
     <div class="archive-article-date-wrap">
         <a href="/2023/07/28/%E5%A4%A7%E4%BA%8C%E8%A7%84%E5%88%92/">
@@ -243,7 +265,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">2</div>
+                <div class="sidebar-state-number">3</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -349,10 +371,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    422
+                    683
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:02
+                    00:03
                 </div>
             
             
@@ -379,7 +401,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">2</div>
+                <div class="sidebar-state-number">3</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -461,6 +483,15 @@
 
 
 
+    
+<script src="https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js"></script>
+
+    <script>
+        if (window.mermaid) {
+            mermaid.initialize({theme: 'forest'});
+        }
+    </script>
+
 
 
 <script src="/js/script.js"></script>
@@ -478,6 +509,34 @@
 
 
 
+
+    
+<script src="https://unpkg.com/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"></script>
+
+    
+<script src="https://unpkg.com/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"></script>
+
+    
+<script src="/js/search.js"></script>
+
+    <script>
+        var CONFIG = {
+            root: '/',
+            algolia: {
+                applicationID: "your applicationID",
+                apiKey: "your apiKey",
+                indexName: "your indexName",
+                hits: {
+                    "per_page": parseInt("10")
+                },
+                labels: {
+                    "input_placeholder": "搜索.....",
+                    "hits_empty": "未发现与 「${query}」相关内容",
+                    "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+                }
+            }
+        };
+    </script>
 
 
     </div>

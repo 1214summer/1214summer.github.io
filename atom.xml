@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>尬尬の猫</title>
+  <title>尬尬</title>
   <icon>https://1214summer.github.io/icon.png</icon>
   
   <link href="https://1214summer.github.io/atom.xml" rel="self"/>

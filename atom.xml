@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>尬尬</title>
+  <title>尬尬の猫</title>
   <icon>https://1214summer.github.io/icon.png</icon>
   
   <link href="https://1214summer.github.io/atom.xml" rel="self"/>
   
   <link href="https://1214summer.github.io/"/>
-  <updated>2023-07-28T12:00:02.578Z</updated>
+  <updated>2023-08-18T15:32:09.701Z</updated>
   <id>https://1214summer.github.io/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/08/18/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://1214summer.github.io/2023/08/18/%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
+    <published>2023-08-18T15:32:09.701Z</published>
+    <updated>2023-08-18T15:32:09.701Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;二叉树&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#二叉树&quot;&gt;&lt;/a&gt; 二叉树&lt;/h4&gt;
+&lt;p&gt;查找最小值和最大值&lt;/p&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/08/12/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://1214summer.github.io/2023/08/12/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B/</id>
+    <published>2023-08-12T15:47:58.226Z</published>
+    <updated>2023-08-23T13:18:28.806Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;图像分类模型&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#图像分类模型&quot;&gt;&lt;/a&gt; 图像分类模型&lt;/h4&gt;
+&lt;h5 id=&quot;alexnet&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/08/01/numpy%E5%BA%93%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%87%BD%E6%95%B0/"/>
+    <id>https://1214summer.github.io/2023/08/01/numpy%E5%BA%93%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%87%BD%E6%95%B0/</id>
+    <published>2023-08-01T09:55:46.079Z</published>
+    <updated>2023-08-01T09:55:46.079Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;numpy库常用操作函数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#numpy库常用操作函数&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>大二规划</title>
@@ -61,6 +127,30 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>深度学习—语义分割篇</title>
+    <link href="https://1214summer.github.io/2001/08/12/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E2%80%94%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2%E7%AF%87/"/>
+    <id>https://1214summer.github.io/2001/08/12/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E2%80%94%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2%E7%AF%87/</id>
+    <published>2001-08-11T16:00:00.000Z</published>
+    <updated>2023-08-12T15:15:26.203Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;深度学习语义分割篇&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#深度学习语义分割篇&quot;&gt;&lt;/a&gt; 深度学习——语义分割篇&lt;/h3&gt;
+&lt;h4 id=&quot;转置卷积&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="深度学习" scheme="https://1214summer.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   

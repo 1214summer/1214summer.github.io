@@ -6,7 +6,7 @@
   <link href="https://1214summer.github.io/atom.xml" rel="self"/>
   
   <link href="https://1214summer.github.io/"/>
-  <updated>2023-08-18T15:32:09.701Z</updated>
+  <updated>2023-10-30T10:57:23.069Z</updated>
   <id>https://1214summer.github.io/</id>
   
   <author>
@@ -18,10 +18,123 @@
   
   <entry>
     <title></title>
+    <link href="https://1214summer.github.io/2023/10/30/%E5%8C%BB%E7%96%97%E5%9B%BE%E5%83%8F%E7%AD%89%E9%A2%9D/"/>
+    <id>https://1214summer.github.io/2023/10/30/%E5%8C%BB%E7%96%97%E5%9B%BE%E5%83%8F%E7%AD%89%E9%A2%9D/</id>
+    <published>2023-10-30T10:57:23.061Z</published>
+    <updated>2023-10-30T10:57:23.069Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;开山鼻祖：FCN（不能保留部分像素空间位置信息和上下文信息导致局部特征和全局特征丢失的缺点）&lt;/p&gt;
+&lt;p&gt;重大根基：U-Net&lt;/p&gt;
+&lt;p&gt;U-Net++(设计了多重连接)&lt;/p&gt;
+&lt;p&gt;M-Net(用于大脑共振成像分割)&lt;/p&gt;
+&lt;p&gt;基于注意力的嵌套细分网络(att</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/10/04/%E5%9B%BE/"/>
+    <id>https://1214summer.github.io/2023/10/04/%E5%9B%BE/</id>
+    <published>2023-10-04T06:43:38.382Z</published>
+    <updated>2023-10-04T12:12:55.987Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;图的遍历&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#图的遍历&quot;&gt;&lt;/a&gt; 图的遍历&lt;/h3&gt;
+&lt;h4 id=&quot;dfs深度优先搜索&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/09/22/%E9%9B%86%E5%90%88%E8%BF%90%E7%AE%97/"/>
+    <id>https://1214summer.github.io/2023/09/22/%E9%9B%86%E5%90%88%E8%BF%90%E7%AE%97/</id>
+    <published>2023-09-22T14:02:55.136Z</published>
+    <updated>2023-10-04T06:43:31.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;集合运算&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#集合运算&quot;&gt;&lt;/a&gt; 集合运算&lt;/h4&gt;
+&lt;p&gt;1.查找某个元素所在的集合&lt;/p&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/09/19/%E5%BB%BA%E7%AB%8B%E6%90%9C%E7%B4%A2%E6%A0%91/"/>
+    <id>https://1214summer.github.io/2023/09/19/%E5%BB%BA%E7%AB%8B%E6%90%9C%E7%B4%A2%E6%A0%91/</id>
+    <published>2023-09-19T14:06:50.740Z</published>
+    <updated>2023-09-19T14:06:50.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;建立搜索树&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#建立搜索树&quot;&gt;&lt;/a&gt; 建立搜索树&lt;/h4&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://1214summer.github.io/2023/09/05/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E8%8F%9C%E8%B0%B1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <id>https://1214summer.github.io/2023/09/05/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E8%8F%9C%E8%B0%B1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</id>
+    <published>2023-09-04T16:08:08.298Z</published>
+    <updated>2023-09-04T16:08:08.298Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;自动生成菜谱小程序&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#自动生成菜谱小程序&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="https://1214summer.github.io/2023/08/18/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     <id>https://1214summer.github.io/2023/08/18/%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
     <published>2023-08-18T15:32:09.701Z</published>
-    <updated>2023-08-18T15:32:09.701Z</updated>
+    <updated>2023-10-04T15:55:43.571Z</updated>
     
     
       

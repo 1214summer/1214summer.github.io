@@ -30,7 +30,7 @@
 <meta property="og:description" content="二叉树 查找最小值和最大值 123456Position FindMin(BinTree BST)&amp;#123;    if(!BST) return NULL;    else if(!BST-&gt;Left)  return BST;    else return FindMin(BST-&gt;Left);&amp;#125; 123456Position FindMax(BinTree BST)">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-18T15:32:09.701Z">
-<meta property="article:modified_time" content="2023-08-18T15:32:09.701Z">
+<meta property="article:modified_time" content="2023-10-04T15:55:43.571Z">
 <meta property="article:author" content="summer">
 <meta name="twitter:card" content="summary">
     
@@ -194,6 +194,10 @@
 <p>查找最小值和最大值</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Position <span class="title function_">FindMin</span><span class="params">(BinTree BST)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(!BST) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(!BST-&gt;Left)  <span class="keyword">return</span> BST;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">return</span> FindMin(BST-&gt;Left);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Position <span class="title function_">FindMax</span><span class="params">(BinTree BST)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(BST) </span><br><span class="line">        <span class="keyword">while</span>(BST-&gt;Right) BST=BST-&gt;Right;</span><br><span class="line">    retrun BST;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>树的习题讲解</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">solve</span><span class="params">(<span class="type">int</span> preL,<span class="type">int</span> inL,<span class="type">int</span> postL,<span class="type">int</span> n)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(n==<span class="number">0</span>) <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">if</span>(n==<span class="number">1</span>)&#123; post[postL]=pre[preL];<span class="keyword">return</span>;&#125;</span><br><span class="line">    root=pre[preL];</span><br><span class="line">    post[postL+n<span class="number">-1</span>]=root;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">        <span class="keyword">if</span>(in[inL+i] == root ) <span class="keyword">break</span>;</span><br><span class="line">    L=i;R=n-L<span class="number">-1</span>;</span><br><span class="line">    solve(preL+<span class="number">1</span>,inL,postL,L); </span><br><span class="line">    solve(preL+L+<span class="number">1</span>,inL+L+<span class="number">1</span>,postL+L,R);</span><br><span class="line"></span><br><span class="line">   </span><br></pre></td></tr></table></figure>
+<p>完全二叉搜索树</p>
+<p>用数组实现</p>
 
             
         </div>
@@ -210,6 +214,23 @@
     
         
     <nav id="article-nav" class="wow fadeInUp">
+        
+            <div class="article-nav-link-wrap article-nav-link-left">
+                
+                    
+                    
+                        <img data-src="/images/banner.jpg" data-sizes="auto" alt=""
+                             class="lazyload">
+                    
+                
+                <a href="/2023/09/05/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E8%8F%9C%E8%B0%B1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"></a>
+                <div class="article-nav-caption">Newer</div>
+                <h3 class="article-nav-title">
+                    
+                        (no title)
+                    
+                </h3>
+            </div>
         
         
             <div class="article-nav-link-wrap article-nav-link-right">
@@ -257,7 +278,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">7</div>
+                <div class="sidebar-state-number">12</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -333,7 +354,7 @@
     <div class="widget-wrap wow fadeInRight">
         <h3 class="widget-title">Archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2001/08/">August 2001</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2001/07/">July 2001</a></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2001/08/">August 2001</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2001/07/">July 2001</a></li></ul>
         </div>
     </div>
 
@@ -363,10 +384,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    1.2k
+                    2.8k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:07
+                    00:14
                 </div>
             
             
@@ -393,7 +414,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">7</div>
+                <div class="sidebar-state-number">12</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
